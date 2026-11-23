@@ -1,0 +1,57 @@
+experiment,host,port,service,tool,classification
+before,10.0.0.5,21,vsftpd 2.3.4,lookup_cve,grounded
+before,10.0.0.5,21,vsftpd 2.3.4,lookup_cve_v2,grounded
+before,10.0.0.5,22,OpenSSH 7.2p2 Ubuntu,lookup_cve,grounded
+before,10.0.0.5,22,OpenSSH 7.2p2 Ubuntu,lookup_cve_v2,grounded
+before,10.0.0.5,80,Apache httpd 2.4.49,lookup_cve,grounded
+before,10.0.0.5,80,Apache httpd 2.4.49,lookup_cve_v2,grounded
+before,10.0.0.8,139,Samba smbd 3.5.0,lookup_cve,grounded
+before,10.0.0.8,139,Samba smbd 3.5.0,lookup_cve_v2,grounded
+before,10.0.0.8,3306,MySQL 5.5.40,lookup_cve,grounded
+before,10.0.0.8,3306,MySQL 5.5.40,lookup_cve_v2,grounded
+before,10.0.0.12,23,Linux telnetd,lookup_cve,blind spot
+before,10.0.0.12,23,Linux telnetd,lookup_cve_v2,grounded
+before,10.0.0.12,443,Apache httpd 2.2.8 (OpenSSL 1.0.1),lookup_cve,wrong version
+before,10.0.0.12,443,Apache httpd 2.2.8 (OpenSSL 1.0.1),lookup_cve_v2,grounded
+before,10.0.0.12,6379,Redis key-value store 4.0.9,lookup_cve,blind spot
+before,10.0.0.12,6379,Redis key-value store 4.0.9,lookup_cve_v2,grounded
+before,10.0.0.20,21,ProFTPD 1.3.5,lookup_cve,grounded
+before,10.0.0.20,21,ProFTPD 1.3.5,lookup_cve_v2,grounded
+before,10.0.0.20,80,nginx 1.18.0,lookup_cve,true gap
+before,10.0.0.20,80,nginx 1.18.0,lookup_cve_v2,true gap
+before,10.0.0.20,5432,PostgreSQL 9.6.24,lookup_cve,true gap
+before,10.0.0.20,5432,PostgreSQL 9.6.24,lookup_cve_v2,true gap
+before,10.0.0.30,21,vsftpd 2.3.4,lookup_cve,grounded
+before,10.0.0.30,21,vsftpd 2.3.4,lookup_cve_v2,grounded
+before,10.0.0.30,22,OpenSSH 7.2p2 Ubuntu,lookup_cve,grounded
+before,10.0.0.30,22,OpenSSH 7.2p2 Ubuntu,lookup_cve_v2,grounded
+before,10.0.0.30,8080,Apache Tomcat 9.0.30,lookup_cve,grounded
+before,10.0.0.30,8080,Apache Tomcat 9.0.30,lookup_cve_v2,grounded
+after,10.0.0.5,21,vsftpd 2.3.4,lookup_cve,grounded
+after,10.0.0.5,21,vsftpd 2.3.4,lookup_cve_v2,grounded
+after,10.0.0.5,22,OpenSSH 7.2p2 Ubuntu,lookup_cve,grounded
+after,10.0.0.5,22,OpenSSH 7.2p2 Ubuntu,lookup_cve_v2,grounded
+after,10.0.0.5,80,Apache httpd 2.4.49,lookup_cve,wrong version
+after,10.0.0.5,80,Apache httpd 2.4.49,lookup_cve_v2,wrong version
+after,10.0.0.8,139,Samba smbd 3.5.0,lookup_cve,grounded
+after,10.0.0.8,139,Samba smbd 3.5.0,lookup_cve_v2,grounded
+after,10.0.0.8,3306,MySQL 5.5.40,lookup_cve,grounded
+after,10.0.0.8,3306,MySQL 5.5.40,lookup_cve_v2,grounded
+after,10.0.0.12,23,Linux telnetd,lookup_cve,blind spot
+after,10.0.0.12,23,Linux telnetd,lookup_cve_v2,grounded
+after,10.0.0.12,443,Apache httpd 2.2.8 (OpenSSL 1.0.1),lookup_cve,grounded
+after,10.0.0.12,443,Apache httpd 2.2.8 (OpenSSL 1.0.1),lookup_cve_v2,grounded
+after,10.0.0.12,6379,Redis key-value store 4.0.9,lookup_cve,blind spot
+after,10.0.0.12,6379,Redis key-value store 4.0.9,lookup_cve_v2,grounded
+after,10.0.0.20,21,ProFTPD 1.3.5,lookup_cve,grounded
+after,10.0.0.20,21,ProFTPD 1.3.5,lookup_cve_v2,grounded
+after,10.0.0.20,80,nginx 1.18.0,lookup_cve,true gap
+after,10.0.0.20,80,nginx 1.18.0,lookup_cve_v2,true gap
+after,10.0.0.20,5432,PostgreSQL 9.6.24,lookup_cve,true gap
+after,10.0.0.20,5432,PostgreSQL 9.6.24,lookup_cve_v2,true gap
+after,10.0.0.30,21,vsftpd 2.3.4,lookup_cve,grounded
+after,10.0.0.30,21,vsftpd 2.3.4,lookup_cve_v2,grounded
+after,10.0.0.30,22,OpenSSH 7.2p2 Ubuntu,lookup_cve,grounded
+after,10.0.0.30,22,OpenSSH 7.2p2 Ubuntu,lookup_cve_v2,grounded
+after,10.0.0.30,8080,Apache Tomcat 9.0.30,lookup_cve,grounded
+after,10.0.0.30,8080,Apache Tomcat 9.0.30,lookup_cve_v2,grounded

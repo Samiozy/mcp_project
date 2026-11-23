@@ -1,0 +1,17 @@
+{
+  "host": "10.0.0.30",
+  "services": [
+    {
+      "service": "vsftpd 2.3.4",
+      "expected": "vsftpd 2.3.4"
+    },
+    {
+      "service": "OpenSSH 7.2p2 Ubuntu",
+      "expected": "OpenSSH 7.2p2"
+    },
+    {
+      "service": "Apache Tomcat 9.0.30",
+      "expected": "Apache Tomcat 9.0.30"
+    }
+  ]
+}
